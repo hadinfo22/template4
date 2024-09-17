@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>light:Sign Up</title>
+        <meta charset="UTF-8">
+        <!--compatible with edge-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- external stylesheet link with css file -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- font Awesome icons link-->
+        <link rel="stylesheet" href="css/all.css">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--responsive designed to mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>  <!--begining of header-->
+            <nav class="navbar navbar-expand-xl gradient-bg-color  navbar-black fixed-top">
+                <div class="container-fluid">
+                    <!--begining logo-->
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.jpg" class="img-fluid" alt="light" draggable="false" style="width:100px; height:50px">
+                  </a><!--/ending of logo-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle text-style selection rounded ps-2" href="#" role="button" data-bs-toggle="dropdown">work</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item n-style selection d-flex align-items-center" href="#">collection</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection d-flex align-items-center" href="#">sculpture</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle text-style selection rounded ps-2" href="#" role="button" data-bs-toggle="dropdown">studio</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item n-style selection d-flex align-items-center" href="#">who we are</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item n-style selection d-flex align-items-center" href="#">contact</a></li>
+                           </ul>
+                          </li>
+                          <li class="nav-item dropdown ms-3">
+                            <a class="nav-link text-style selection rounded ps-2" href="#" role="button" data-bs-toggle="dropdown">stockists</a>
+                          </li>
+                        </ul>                      
+                      </div>
+                    </div>
+                    <!-- Sign In / Sign Up -->
+                  <div class="d-flex flex-column flex-lg-row justify-content-end align-items-end gap-3 mx-3" style="width:300px" id="linkloginregister">
+                    <a class="nav-link text-white antic-slab-regular fs-6 n-style" href="login.html"><i class="fa-solid fa-right-to-bracket me-2 " style="color:var(--main-color)"></i>Sign In</a>
+                    <a class="nav-link text-white antic-slab-regular fs-6 n-style" href="register.html"><i class="fa-solid fa-user-plus me-2" style="color:var(--main-color)"></i>Sign Up</a>
+                 </div>     
+             </nav>  
+         </header>   <!--/ending of header-->
+    <section><!-- begining of Sign Up-->
+        <div class="form-login vh-100 vw-100">
+            <div class="overley"></div>        
+            <div class="loginsignupcontent d-flex justify-content-center align-items-center">
+                <!-- begining of Form box -->
+                <div class="form-box position-relative d-flex align-items-center justify-content-center" style="width: 512px; height: 500px; z-index:2">
+                    <!-- begining of Sign Up Form -->
+                    <div class="signup-container d-flex flex-column position-absolute" id="signup" style="width: 500px; left: 4px; transition: 0.5s ease-in-out;">
+                        <div class="top">
+                            <h3 class="n-style text-white fs-2 text-center pt-5 px-0 pb-4">Sign Up User</h3>
+                        </div>
+                        <div class="two-forms d-flex flex-column bk-black"style="height:200px">
+                            <div class="input-box">
+                                <input type="text" class="input-field fs-6 fw-lighter border-0 t-style font text-white" id="username"  placeholder="Enter Username"/>
+                                <i class="fa-solid fa-user position-relative text-white"></i>
+                            </div>
+                            <div class="input-box pt-3">
+                                <input type="email" class="input-field fs-6 fw-lighter border-0 t-style font text-white" id="email"  placeholder="Enter Email"/>
+                                <i class="fa-regular fa-envelope position-relative text-white"></i>
+                            </div>
+                            <div class="input-box pt-3">
+                                <input type="password" class="input-field fs-6 fw-lighter border-0 t-style font text-white" id="password"  placeholder="Enter Password"/>
+                                <i class="fa-solid fa-lock position-relative text-white"></i>
+                            </div>
+                            
+                             <div class="input-box pt-3">
+                                <input type="submit" class="submit fs-3 fw-medium text-dark w-100 input-field border-0 n-style text-white" id="sign-up" value="Sign Up" style="height: 45px;"/>
+                                  <div class="top" style="height:200px; width:500px">
+                                      <span class="n-style text-white py-2 px-0 d-flex justify-content-center" style="font-size: small;">Do you have an account? 
+                                      <a class="fw-medium ms-2 n-style text-black nav-hover" href="login.html">Sign In</a>
+                                    </span>
+                                  </div>  
+                            </div>
+                         </div>
+                    </div>
+                    <!-- /ending of Sign Up Form -->
+                </div>
+                <!-- /ending of Form box -->            
+            </div>
+        </div> 
+    </section> <!-- /ending of Login and Sign up-->       
+        <!-- Noyau JavaScript of Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>    
+        <!-- File Script -->
+        <script src="js/register.js"></script>
+    </body>
+    </html>
