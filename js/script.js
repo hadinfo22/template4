@@ -294,7 +294,7 @@ let searchbtn = document.getElementById("searchbtn")
             })
         } 
         if(searchitem.length===0){
-            searchitem=[]
+            alert("Data Not Found")
         } else{
             drawSearch(searchitem)
         }
